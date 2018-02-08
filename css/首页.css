@@ -1,0 +1,258 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑";
+    overflow-x:hidden; 
+}
+header{
+    width: 100%;
+    color: #29b078;    
+}
+header .container .row{
+    margin-top: 5px;
+}
+header .container .row .col-md-12 p img{
+    float: right;
+    margin-left: 10px;
+}
+header .banner{
+  width: 100%;
+}
+.bg{
+    width: 100%;
+    background: #29b078;
+}
+.bg .col-md-8 img{
+    margin:10px 0; 
+}
+.bg .col-md-4 ul{
+    width: 100%;
+    float: right;
+    height: 82px;
+    margin:0;
+    padding: 0;
+    margin-right: -36px;
+}
+.bg .col-md-4 ul li{
+    width: 25%;
+    color: white;
+    text-align: center;
+    list-style: none;
+    line-height: 77px;
+    float: left;
+}
+.hover{
+    border-bottom: 5px solid #fff;
+    display: none;
+}
+.bg .col-md-4 ul li:hover .hover{
+    display:block;
+}
+
+header .carousel slide{
+    width: 80%;
+}
+main .container .row .col-md-12 ul{
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding:0;
+}
+main .container .row .col-md-12 ul li{
+    width: 290px;
+    height: 200px;
+    list-style: none;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 34px;
+}
+.xx{
+    padding-top:50px ! important; 
+    padding-left: 60px ! important;
+    border-left:4px dashed #b2b2b2;
+}
+.xx img{
+    float: left;
+}
+.xx .ys{
+    color: #26a26f !important;
+    font-weight: 800;
+}
+main .container .row .col-md-12 ul li img{
+    margin: 0 auto;
+}
+main .container .row .col-md-12 ul li h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+main .container .row .col-md-12 ul li p{
+    color: #b2b2b2;
+    text-align: left;
+}
+main .how{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+main .container .row .col-md-3{
+    position: relative;
+}
+main .container .row .col-md-3 .lh{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main .container .row .col-md-3 .qq{
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 1px #888888;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 0;  
+    border-radius: 50%;  
+}
+main .container .row .col-md-3 p{
+    margin-top: 13px;
+    padding: 0 58px;
+    line-height: 24px
+}
+main .container .row2 img{
+    position: absolute;
+    right: 20px;
+    top: 22%;
+}
+main .container .row3 .col-md-3{
+    box-shadow: 0px 0px 1px #888888;
+    margin: 0 7px;
+    width: 286px;
+}
+main .container .row3 .col-md-3 p{
+    text-align: center;
+    padding:0;
+}
+main .container .row3 .col-md-3 h5{
+    text-align: center;
+    font-weight: 700;
+    line-height: 25px;
+}
+main .container .row3 .col-md-3 h6{
+    font-size: 15px;
+    padding:0 20px;
+    color: #b2b2b2;
+    line-height: 28px;
+}
+main .dd{
+    height: 15px;
+    margin: 20px 0;
+}
+main .dd ul{
+    width: 200px;
+    margin:0 auto;
+}
+main .dd ul li{
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    width: 15px;
+    height: 15px;
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+}
+main .dd ul .active{
+    background: #29b078;
+}
+main .container .row4{
+    padding-top: 25px;
+    box-shadow: 0px 1px 1px #888888;
+    margin-bottom: 50px;
+}
+main .container .row4 ul{
+    margin-top: 0 !important; 
+    width: 100%;
+}
+main .container .row4 ul li{
+    line-height: 90px;
+    width: 20% !important;
+    height: 120px !important;
+    padding:0 !important;
+}
+main .container .row4 ul li img{
+    width: 50%;
+}
+main .yqlj{
+    width: 100%;
+}
+main .yqlj li{
+    width: 10%;
+    min-width: 81px;
+    float: left;
+    color: #b2b2b2;
+    margin-bottom:20px; 
+}
+main .yqlj li a{
+     color: #b2b2b2;
+}
+main .yqlj a:hover {
+    border-bottom: 1px solid #26a26f;
+    color: #b2b2b2;
+}
+.how a {
+    color: black;
+}
+footer{
+    width: 100%;
+    background: #26a26f;
+    color: white;
+}
+footer .row{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #32c086;
+}
+
+footer p{
+    margin-top: 20px;
+}
+footer p span{
+    margin-left: 30px;
+}
+footer img{
+    float: right;
+    margin-top: 5px;
+}
+footer .col-md-4 p{
+    margin:0;
+    margin-top:20px;
+    margin-right: 5px;
+
+}
+footer .col-md-4{
+    padding-right: 20px;
+}
+footer .col-md-4 b{
+    padding-top: 80px; 
+}
