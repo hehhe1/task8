@@ -88,9 +88,10 @@ main .container .row .col-md-12 ul li{
     padding: 0 34px;
 }
 .xx{
-    padding-top:50px ! important; 
+    padding-top:40px ! important; 
     padding-left: 60px ! important;
-    border-left:4px dashed #b2b2b2;
+    border-left:1px dashed #b2b2b2;
+    font-size: 15px;
 }
 .xx img{
     float: left;
@@ -128,13 +129,14 @@ main .container .row .col-md-3 .lh{
 main .container .row .col-md-3 .qq{
     width: 50px;
     height: 50px;
-    box-shadow: 1px 2px 1px #888888;
+    box-shadow: 0px 1px 0px #888888;
     text-align: center;
     line-height: 50px;
     position: absolute;
     left: 20px;
     top: 0;  
     border-radius: 50%;  
+    color:#26a26f;
 }
 main .container .row .col-md-3 p{
     margin-top: 13px;
@@ -249,6 +251,15 @@ footer .col-md-4 p{
     margin-top:20px;
     margin-right: 5px;
 
+}
+footer .col-md-5{
+    padding: 0 78px;
+}
+footer .col-md-5 a{
+    color: white;
+}
+footer .col-md-5 a:hover {
+    border-bottom: 1px solid white;
 }
 footer .col-md-4{
     padding-right: 20px;

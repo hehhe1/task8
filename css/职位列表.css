@@ -149,10 +149,7 @@ footer .row{
     padding-bottom: 10px;
     border-bottom: 1px solid #32c086;
 }
-footer .col-md-4,footer .col-md-4,footer .col-md-4{
-    margin:0;
-    padding: 0;
-}
+
 footer p{
     margin-top: 20px;
 }
@@ -168,6 +165,15 @@ footer .col-md-4 p{
     margin-top:20px;
     margin-right: 5px;
 
+}
+footer .col-md-5{
+    padding: 0 78px;
+}
+footer .col-md-5 a{
+    color: white;
+}
+footer .col-md-5 a:hover {
+    border-bottom: 1px solid white;
 }
 footer .col-md-4{
     padding-right: 20px;

@@ -164,6 +164,15 @@ footer .col-md-4 p{
     margin-right: 5px;
 
 }
+footer .col-md-5{
+    padding: 0 78px;
+}
+footer .col-md-5 a{
+    color: white;
+}
+footer .col-md-5 a:hover {
+    border-bottom: 1px solid white;
+}
 footer .col-md-4{
     padding-right: 20px;
 }
